@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+    img {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+    }
+    h3 {
+      text-align: center;
+    }
+    p {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    h4 {
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h3>Indiana Jones</h3>
+
+  <div class="container">
+    <div class="row">
+      <div class="colum">
+        <img src="images/raiders.jpg" alt="raiders of the lost ark">
+        <h4>Raiders of The Lost Ark</h4>
+        <p>Epic tale in which an intrepid archaeologist tries to beat a band of Nazis to a unique religious relic which is central
+        to their plans for world domination. Battling against a snake phobia and a vengeful ex-girlfriend, Indiana Jones is in
+        constant peril, making hair's-breadth escapes at every turn in this celebration of the innocent adventure movies of an
+        earlier era.</p>
+      </div>
+      <div class="colum">
+        <img src="images/temple.jpg" alt="temple of doom">
+        <h4>Temple of Doom</h4>
+        <p>Adventure sequel. Intrepid archaeologist Indiana Jones, on the trail of fortune and glory in Old Shanghai, is ricocheted
+        into a dangerous adventure in India. With his faithful companion Short Round and nightclub singer Willie Scott, Indie
+        goes in search of the magical Sankara stone, and uncovers an ancient evil which threatens all who come into contact with
+        it.</p>
+      </div>
+      <div class="colum">
+        <img src="images/crusade.jpg" alt="the last crusade">
+        <h4>The Last Crusade</h4>
+        <p>The intrepid explorer Indiana Jones sets out to rescue his father, a medievalist who has vanished while searching for
+        the Holy Grail. Following clues in the old man's notebook, Indy arrives in Venice, where he enlists the help of a
+        beautiful academic, but they are not the only ones who are on the trail, and some sinister old enemies soon come out of
+        the woodwork.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
